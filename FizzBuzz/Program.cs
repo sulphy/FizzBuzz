@@ -8,6 +8,7 @@ namespace FizzBuzz
         {
             Console.WriteLine("FizBuzz Test");
             var fbObject = new FizzBuzz();
+            fbObject.FizzBuzzGenerator();
         }
     }
 }

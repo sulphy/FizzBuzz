@@ -8,7 +8,8 @@ namespace FizzBuzz
             get;
             set;
         }
-        public FizzBuzz()
+
+        public void FizzBuzzGenerator()
         {
 
             for (var i = 0; i <= 100; i++){
